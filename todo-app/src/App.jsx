@@ -3,8 +3,18 @@ import "./App.css";
 import TodoCreate from "./components/TodoCreate";
 function App() {
   return (
-    <div>
-      <TodoCreate />
+    <div className="App">
+      <div
+        style={{
+          width: "600px",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <TodoCreate />
+      </div>
     </div>
   );
 }
