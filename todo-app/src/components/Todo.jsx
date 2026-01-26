@@ -14,7 +14,7 @@ function Todo({ todo }) {
         width: "100%",
         border: "1px solid lightgray",
         padding: "10px ",
-        marginTop: "6px",
+        marginTop: "12px",
       }}
     >
       <div>{todo.content}</div>
