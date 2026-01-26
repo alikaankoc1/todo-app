@@ -4,6 +4,8 @@ import { FaEdit } from "react-icons/fa";
 import "../App.css";
 
 function Todo({ todo }) {
+  const { content } = todo;
+
   return (
     <div
       style={{
@@ -17,7 +19,7 @@ function Todo({ todo }) {
         marginTop: "12px",
       }}
     >
-      <div>{todo.content}</div>
+      <div>{content}</div>
 
       <div>
         <IoIosRemoveCircle className="todo-icons" />
