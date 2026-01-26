@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import TodoCreate from "./components/TodoCreate";
+import TodoList from "./components/TodoList";
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
         }}
       >
         <TodoCreate />
+        <TodoList />
       </div>
     </div>
   );
