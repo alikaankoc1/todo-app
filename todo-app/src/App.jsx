@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <div
         style={{
-          width: "600px",
+          width: "500px",
           display: "flex",
           flexDirection: "column",
           alignItems: "center",

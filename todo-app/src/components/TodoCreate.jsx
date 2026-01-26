@@ -3,8 +3,8 @@ import "../App.css";
 function TodoCreate() {
   return (
     <div className="todo-create">
-      <input type="text" placeholder="todo giriniz" />
-      <button>Todo Oluştur</button>
+      <input className="todo-input" type="text" placeholder="todo giriniz" />
+      <button className="todo-create-btn">Todo Oluştur</button>
     </div>
   );
 }
