@@ -3,7 +3,7 @@ import { IoIosRemoveCircle } from "react-icons/io";
 import { FaEdit } from "react-icons/fa";
 import "../App.css";
 
-function Todo() {
+function Todo({ todo }) {
   return (
     <div
       style={{
@@ -14,9 +14,10 @@ function Todo() {
         width: "100%",
         border: "1px solid lightgray",
         padding: "10px ",
+        marginTop: "6px",
       }}
     >
-      <div>Ben İlk Todoyum</div>
+      <div>{todo.content}</div>
 
       <div>
         <IoIosRemoveCircle className="todo-icons" />
